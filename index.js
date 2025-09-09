@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://youtube-frontend-liart.vercel.app/",
+    origin: "https://youtube-frontend-liart.vercel.app",
     credentials: true,
   })
 );
